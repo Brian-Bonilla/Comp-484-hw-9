@@ -7,4 +7,4 @@
 - Number.isNaN()
 - Number.isInteger()
 - toFixed()
-![screenshot] (
+![screenshot] (Screenshot 2026-03-31 155644.png)
