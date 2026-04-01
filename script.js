@@ -67,11 +67,14 @@ var mathMessage = "Grade A: " + gradeA + ","+ "Grade B: " + gradeB + "," + "Grad
 document.getElementById("mathOutput").innerHTML = mathMessage;
 
 //Part 4
-if (averageScore < 60) {
+/*if (averageScore < 60) {
     var gradeMessage = "Failing";
 } else {
     var gradeMessage = "Passing";
-}
+}*/
+
+var gradeMessage = (averageScore < 60) ? "Failing" : "Passing";
+
 document.getElementById("mathOutput").innerHTML += "<br>" + gradeMessage;
 
 if (isInteger1 === true) {
@@ -79,4 +82,5 @@ if (isInteger1 === true) {
 } else {
     var intMessage = "This value is not an integer.";
 }
+
 document.getElementById("numberConversionOutput").innerHTML += "<br>" + intMessage;
